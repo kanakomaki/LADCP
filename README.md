@@ -21,13 +21,17 @@ The repo contains the following series of programs. Basically, execute one by on
 
 ## Setting of input/output directories and data
 Input data directory     ./DAT/  
-Output data directory    ./ANA/LADCP1/,./ANA/LADCP2/,./ANA/LADCP3/,./ANA/LADCP4/,./ANA/LADCP5/,
-                         ./ANA/LADCP6/,./ANA/LADCP7/,./ANA/LADCP8/, ./ANA/ECHO/
+Output data directory    ./ANA/LADCP1/,./ANA/LADCP2/,./ANA/LADCP3/,./ANA/LADCP4/,./ANA/LADCP5/,  
+                         ./ANA/LADCP6/,./ANA/LADCP7/,./ANA/LADCP8/, ./ANA/ECHO/  
 Sample data (./DAT/)   
 input     ./DAT/001.asc: LADCP ascii DATA (Processed by RDI's WinADCP software)  
-input     ./DAT/ctd.asc: CTD ascii DATA (TIME, DEPTH)   
-output    ./DAT/LADCP1/001.vdw,./DAT/LADCP1/001.vbt,./DAT/LADCP1/001.vup  :  output velocity profiles during downcast, upcast, and the sea-bottom  
-output    ./DAT/LADCP1/001.edw,./DAT/LADCP1/001.ebt,./DAT/LADCP1/001.eup  :  output echo intensity profiles during downcast, upcast, and the sea-bottom  
+          ./DAT/ctd.asc: CTD ascii DATA (TIME, DEPTH)   
+output    ./DAT/LADCP1/001.vdw,  
+          ./DAT/LADCP1/001.vbt,  
+          ./DAT/LADCP1/001.vup  :  output velocity profiles during downcast, upcast, and the sea-bottom   
+          ./DAT/LADCP1/001.edw,  
+          ./DAT/LADCP1/001.ebt,  
+          ./DAT/LADCP1/001.eup  :  output echo intensity profiles during downcast, upcast, and the sea-bottom   
 
 
 Last update: 2023Sep24 1st uploaded to Github
